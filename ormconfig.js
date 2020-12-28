@@ -8,6 +8,6 @@ module.exports = {
   entities: ['src/app/models/*.ts'],
   migrations: ['src/database/migrations/*.ts'],
   cli: {
-    entitiesDir: 'src/database/migrations',
+    migrationsDir: 'src/database/migrations',
   },
 }
