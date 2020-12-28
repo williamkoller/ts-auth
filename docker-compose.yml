@@ -13,4 +13,6 @@ services:
     ports:
       - ${DB_PORT}:${DB_PORT}
     volumes:
-      - api_db_data:/var/lib/postgresql/data
+      - db_data:/var/lib/postgresql/data
+volumes:
+  db_data:
